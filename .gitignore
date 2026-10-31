@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local user data
+data/favorites.json
+*.log
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
